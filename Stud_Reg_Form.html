@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Home|</a>
+        <a href="#">Contacts|</a>
+        <a href="#">About|</a>
+        <a href="#">Projects</a>
+    </nav>
+
+    <form action="">
+        <h1>Student Registration Form</h1>
+        <hr>
+        <p>First Name: <br> <input type="text" name="first_name" required> <br>
+           Last Name: <br> <input type="text" name="last_name" required>
+        </p>
+        <p>DOB: <br> <input type="date" name="DOB" id="dob" required></p>
+        <p>Father's Name: <br> <input type="text" name="father's_name" required></p>
+        <p>Document: <br>
+            <input type="radio" name="document" id="aadhaar" required>Aadhaar <br>
+            <input type="radio" name="document" id="driving_license" required>Driving License <br>
+            <input type="radio" name="document" id="other" required>Other
+        </p>
+        <p>Gender: 
+            <select name="gender" id="gender" required>
+                <option value="">--Select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>    
+        </p>
+        <p>Description: <br> <textarea name="description" id="description" cols="50" rows="5"></textarea></p>
+        <input type="checkbox" name="confirm" id="confirm" required>Confirm
+        <br>
+        <input type="submit" value="Submit">
+        
+        <footer>
+            <p>Made by Vimal
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <i class="fab fa-twitter"></i>
+            </p>
+        </footer>
+    </form>
+</body>
+</html>
